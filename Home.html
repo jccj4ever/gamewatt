@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta name = "viewport" content = "with=device-width, initial-scale=1.0">
+  <title>HOME</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+
+<section class = "header">
+      <nav>
+           <a href= "index.html"> <img src = "LOGO.png"> </a>
+              <div class = "nav-links" id = "navLinks">
+                   <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                       <ul>
+                           <li> <a href= "HOME.html"> HOME </a> </li>
+                           <li> <a href= "GAMES.html"> GAMES</a> </li>
+                           <li> <a href= "NEWS.html"> NEWS </a> </li>
+                           <li> <a href= "COMMUNITY.html"> COMMUNITY </a> </li>
+                           <li> <a href= "UPDATES.html"> UPDATES</a> </li>
+                           <li> <a href= "SHOP.html"> SHOP </a> </li>
+                       </ul>
+              </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+<div class = "text-box">
+    <h1> Power Up Your Play: GameWatt </h1>
+    <p>GameWatt is your ultimate destination for electrifying gameplay! Dive into a vast library<br> of exciting titles, connect with a vibrant community, and compete in electrifying tournaments.  </p>
+<a href = "contact.html" class = "hero-btn"> BEST RPG GAMES </a>
+       </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<section class = "course">
+    <div class= "row">
+        <div class = "course-col">
+        <img src = "image1.jpg">
+          <p> Elden Ring is an open-world action RPG where you can explore a vast, fantasy landscape filled with challenging combat and become a powerful Elden Lord. 
+ </p>
+        </div>
+        <div class = "course-col">
+        <img src = "image2.png">
+          <p> Cyberpunk 2077 is an open-world action RPG where you're a cybernally enhanced mercenary in Night City, a neon-drench dystopian metropolis obsessed with wealth, fame, and body mods. 
+ </p>
+        </div>
+        <div class = "course-col">
+        <img src = "image3.jpg">
+          <p>A monster hunter on a desperate quest to find a young woman who might save the world. Think horseback chases, sword fights with beasts, and tough choices. </p>
+        </div>
+        <div class = "course-col">
+        <img src = "image4.jpg">
+          
+          <p> NieR: RPG with a twist: Automated is a whirlwind of action fighting for machines. Unravel a cryptic a desolate Earth overrun by story with multiple endings and hack-and-slash combat.</p>
+        </div>
+    </div>
+</section>
+<section class = "footer">
+<h4> About Us </h4>
+<p> GameWatt social media accounts</p>
+<div class = "icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-google"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+</div>
+
+</section> 
+
+
+</script>
+</body>
+</html>
